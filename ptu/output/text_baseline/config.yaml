@@ -1,0 +1,7 @@
+batch_size_test: 4
+batch_size_train: 4
+optimizer: {lr: 1e-05, opt: adamW, weight_decay: 0.02}
+schedular: {cooldown_epochs: 0, decay_rate: 1, epochs: 30, lr: 1e-05, min_lr: 1e-06,
+  sched: cosine, warmup_epochs: 1, warmup_lr: 1e-05}
+test_file: /nfs4-p1/ljt/Code/ptu/dataset_coin/coin_test_text.json
+train_file: /nfs4-p1/ljt/Code/ptu/dataset_coin/coin_train_text.json
